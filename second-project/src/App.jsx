@@ -25,3 +25,11 @@ export default App;
 // task 1 - multi action buttons for change count state.
 // task 2 - count total price and dispplay in ui, using useState & useEffect, dummyjson/products
 // task 3 - fruits list -> with name and emoji
+
+// src/App.jsx
+// src/App.css
+// src/components/Counter.jsx
+// src/components/Products.jsx
+// src/components/Fruits.jsx
+
+// 1 time on paper.
