@@ -27,7 +27,6 @@ export default App;
 // task 3 - fruits list -> with name and emoji
 
 // src/App.jsx
-// src/App.css
 // src/components/Counter.jsx
 // src/components/Products.jsx
 // src/components/Fruits.jsx
