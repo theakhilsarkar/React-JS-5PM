@@ -1,3 +1,5 @@
+// import "./"
+
 export const Education = () => {
     return <>
         <div className="container mt-4">

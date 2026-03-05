@@ -56,6 +56,7 @@ export default function Projects() {
                     <a href="#">Source Code</a>
                 </div>
             </div>
+            <div className='container border border-1 border-primary my-5'></div>
         </div>
     )
 }
