@@ -18,3 +18,6 @@ export const App = () => {
     <Footer />
   </>
 }
+
+// Form Handling -> 
+// 12 -> single state
