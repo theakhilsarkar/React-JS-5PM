@@ -7,10 +7,16 @@ import React, { useState } from 'react'
 
 export default function Form() {
     const [user, setUser] = useState({});
+
+    const handleSubmit = () => {
+        localStorage.setItem("user", JSON.stringify(user));
+        alert("Form Submitted !!")
+    }
+
     return (
         <div style={{ height: "100vh" }} className='container d-flex justify-content-center align-items-center'>
             <div className='col-4'>
-                <form>
+                <form onSubmit={handleSubmit}>
                     <div className="mb-3">
                         <label htmlFor="name" className="form-label">
                             Full Name
