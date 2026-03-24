@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 export default function Navbar() {
     return (
@@ -41,6 +42,9 @@ export default function Navbar() {
                                     Disabled
                                 </a>
                             </li>
+                            <Link to={"/home"}>
+                                <p>Home</p>
+                            </Link>
                         </ul>
                     </div>
                 </div>

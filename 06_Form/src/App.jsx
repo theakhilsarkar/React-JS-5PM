@@ -3,6 +3,7 @@ import Form from './components/Form/Form'
 import Navbar from './components/Navbar/Navbar'
 import { Routes, Route } from 'react-router'
 import Users from './components/Users/Users'
+import Home from './components/Home/Home'
 
 export default function App() {
   return (
@@ -11,9 +12,8 @@ export default function App() {
       <Routes>
         <Route path='/' element={<Form />} />
         <Route path='/users' element={<Users />} />
+        <Route path='/home' element={<Home />} />
       </Routes>
-
-
     </div>
   )
 }
