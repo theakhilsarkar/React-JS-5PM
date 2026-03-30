@@ -47,6 +47,7 @@ export default function Home() {
                         <p>{user.password}</p>
                         <p>Fees : {user.fees}</p>
                         <button onClick={() => {
+
                             // 1. create a copy of array
                             // const arr = [...users];
                             // arr.splice(i, 1);
@@ -71,3 +72,10 @@ export default function Home() {
 // Home
 // useEffect - function calling, data fetching, api calling, result/data ready
 
+// react js -> practical
+
+// 1.5 hr
+// 2.5 hr
+
+// 5:30
+// github
