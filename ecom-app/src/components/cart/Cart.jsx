@@ -13,7 +13,7 @@ export default function Cart() {
     return (
         <div>
             {products.map((product, i) => <div key={i}>
-                <p>{product.title}</p>
+                <p>{product.name}</p>
                 <button onClick={() => removeCart(i)}>remove</button>
             </div>)}
         </div>
