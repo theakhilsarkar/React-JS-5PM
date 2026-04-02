@@ -8,6 +8,7 @@ export default function DetailPage() {
     return (
         <div>
             <h1>Detail Page</h1>
+            <img width={245} src={state.image} alt="" />
             <p>{state.name}</p>
 
         </div>

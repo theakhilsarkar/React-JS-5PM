@@ -180,12 +180,19 @@
 // console.log(phone)
 // console.log(address)
 
-const fruits = ["apple", "mango", "strawberry", "yellow apple", "green apple"]
+// const fruits = ["apple", "mango", "strawberry", "yellow apple", "green apple"]
 // index order match
-const [a, b, c] = fruits;
-console.log(a)
-console.log(b)
-console.log(c)
+// const [a, b, c] = fruits;
+// console.log(a)
+// console.log(b)
+// console.log(c)
 
 
 // ctrl + shift + p
+
+
+const str = "Powder Canister";
+const search = "pdr";
+
+const res = str.toLowerCase().includes(search.toLowerCase())
+console.log(res)

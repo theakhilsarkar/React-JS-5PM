@@ -9,7 +9,7 @@ export default function ProductCard({ name, image, des, price, addToCart }) {
             <p className='fs-3'>{name}</p>
             <p>{des}</p>
             <p>{price}</p>
-            <button className='btn btn-primary mx-2' onClick={() => addToCart({ name })}>Add to Cart</button>
+            <button className='btn btn-primary mx-2' onClick={() => addToCart({ name, price, qty: 1 })}>Add to Cart</button>
             <button className='btn btn-primary mx-2' onClick={() => {
                 navigate("/detail", { state: { name, image, des, price } })
             }}>View</button>
