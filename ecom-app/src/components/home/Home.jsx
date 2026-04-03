@@ -9,6 +9,7 @@ export default function Home() {
 
     const [products, setProducts] = useState([]);
     const [search, setSearch] = useState("");
+    const [isClicked, setClick] = useState(true);
 
     const fetchProducts = async () => {
         const res = await axios.get("https://dummyjson.com/products");
@@ -32,13 +33,20 @@ export default function Home() {
         setProducts(result);
     }
 
+    const sortProducts = () => {
+        setClick(!isClicked);
+        const copy = [...products];
+        copy.sort((a, b) => (isClicked) ? a.price - b.price : b.price - a.price);
+        setProducts(copy);
+    }
+
     return (
         <div>
             <div className='my-5'>
-                <input onChange={(e) => setSearch(e.target.value)} className='w-25' type="text" />
-                <button className='btn btn-primary' onClick={searchProduct}>Search</button>
-                <button className='btn btn-primary' onClick={fetchProducts}>Reset</button>
-
+                <input onChange={(e) => setSearch(e.target.value)} className='w-25 mx-2' type="text" />
+                <button className='btn btn-primary mx-2' onClick={searchProduct}>Search</button>
+                <button className='btn btn-primary mx-2' onClick={fetchProducts}>Reset</button>
+                <button className='btn btn-primary mx-2' onClick={sortProducts}>Sort</button>
             </div>
             {
                 products.map((product, i) => <ProductCard key={i} name={product.title} image={product.images[0]} des={product.description} price={product.price} addToCart={addToCart} />)
@@ -48,7 +56,6 @@ export default function Home() {
 }
 
 // api calling - fetch()
-
 // api fetch
 // display
 // add to cart with local storage

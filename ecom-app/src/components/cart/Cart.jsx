@@ -13,13 +13,19 @@ export default function Cart() {
     }
 
     const countTotal = () => {
-        const sum = products.reduce((a, b) => a.price * a.qty + b.price * b.qty);
-        setTotal(sum)
+        console.log("----")
+        let sum = 0;
+        products.forEach(element => {
+            sum = sum + (element.qty * element.price);
+        });
+        setTotal(sum);
     }
 
     useEffect(() => {
         countTotal();
-    }, [])
+        // 1. component re-render
+        // 2. state mentioned in dependency array will update
+    }, [products]) // [state]
 
     return (
         <div className='p-5'>
@@ -30,10 +36,16 @@ export default function Cart() {
                 <button onClick={() => removeCart(i)}>remove</button>
             </div>)}
             <div>
-                <h2>Total: {total}</h2>
+                <h2>Total: {total} </h2>
             </div>
         </div>
     )
 }
 
 
+// api
+// JSON SERVER
+
+// CONTEXT API
+// REDUX TOOLKIT
+//
