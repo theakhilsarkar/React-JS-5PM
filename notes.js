@@ -44,7 +44,7 @@
 
 // installing 3 files
 
-// react js - 
+// react js -
 
 // const nums = [1, 2, 3, 4, 5];
 
@@ -191,8 +191,24 @@
 // ctrl + shift + p
 
 
-const str = "Powder Canister";
-const search = "pdr";
+// const str = "Powder Canister";
+// const search = "pdr";
 
-const res = str.toLowerCase().includes(search.toLowerCase())
-console.log(res)
+// const res = str.toLowerCase().includes(search.toLowerCase())
+// console.log(res)
+
+// GROUP PROJECT - api, api(CRUD) + redux toolkit
+
+
+// server - which can handle request and return response according to request
+// server can manage and store data by help of database.
+// 24X7 open and connected internet = server
+
+// local server = temporory server, for storing data local server use disk drive.
+
+// key string
+
+
+// users
+// tweets - title,description,by,time
+// 

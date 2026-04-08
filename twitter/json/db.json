@@ -1,0 +1,27 @@
+{
+  "tweets": [],
+  "users": [
+    {
+      "name": "aman gupta",
+      "email": "amangupta@gmail.com",
+      "phone": "12345",
+      "password": "1233444",
+      "id": "2id-B9GHFQ4"
+    },
+    {
+      "name": "om bagal",
+      "email": "om@gmail.com",
+      "phone": "7412589630",
+      "password": "123456",
+      "id": "ThBsuFslF7s"
+    },
+    {
+      "name": "raj bagal",
+      "email": "raj@gmail.com",
+      "phone": "32322222",
+      "password": "123456",
+      "id": "0VUvATKDyBE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
