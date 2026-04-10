@@ -43,4 +43,7 @@ export default function SignUp() {
 // signup
 // signin -> if authenticated -> home page
 
-//
+// GET, POST, PUT, DELETE   
+
+// array - email
+

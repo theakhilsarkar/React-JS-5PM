@@ -1,11 +1,36 @@
 {
-  "tweets": [],
+  "tweets": [
+    {
+      "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime pariatur similique consequatur aspernatur cupiditate architecto inventore, expedita optio molestiae dicta sed ducimus nisi, dolorum quia laborum ex deserunt eius commodi.",
+      "user": "aman gupta",
+      "createdAt": "10/04/2026 05:23 PM",
+      "id": "0jB-R1qJI-k"
+    },
+    {
+      "text": "new tweet",
+      "user": "darshan pawar",
+      "createdAt": "10/04/2026 05:46PM",
+      "id": "Z_zTSWatvi0"
+    },
+    {
+      "id": "KSfnl2vcJwE",
+      "text": "new tweet",
+      "user": "darshan pawar",
+      "createdAt": "10/04/2026 05:46PM"
+    },
+    {
+      "id": "2Ig82W9bf4E",
+      "text": "new tweet",
+      "user": "darshan pawar",
+      "createdAt": "10/04/2026 05:46PM"
+    }
+  ],
   "users": [
     {
-      "name": "aman gupta",
-      "email": "amangupta@gmail.com",
-      "phone": "12345",
-      "password": "1233444",
+      "name": "Aman Gupta",
+      "email": "amangupta@yahoo.com",
+      "phone": "7412589630",
+      "password": "123456",
       "id": "2id-B9GHFQ4"
     },
     {
@@ -16,11 +41,11 @@
       "id": "ThBsuFslF7s"
     },
     {
-      "name": "raj bagal",
-      "email": "raj@gmail.com",
-      "phone": "32322222",
+      "name": "darshan pawar",
+      "email": "darshan@gmail.com",
+      "phone": "3232222345",
       "password": "123456",
-      "id": "0VUvATKDyBE"
+      "id": "yPcSOMZidbw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
