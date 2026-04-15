@@ -17,5 +17,17 @@ export const tweets_api = "http://localhost:3000/tweets";
 // initialization
 // configure = create, LOGICS
 
+// RTK - global state management s
+// data - store
+// logic - slice
+// ui - selector,dispatch
 
+// state manage - useState, component based state management
+
+// user@gmail.com
+// twiiter
+// signin(authenticate)/signup(no duplicate)
+// home - tweet add
+// tweet + user + time
+// friday.
 
