@@ -23,16 +23,45 @@
       "text": "new tweet",
       "user": "darshan pawar",
       "createdAt": "10/04/2026 05:46PM"
+    },
+    {
+      "text": "hello world!!!",
+      "user": "darshan@gmail.com",
+      "createdAt": "13/3/2026 17:53",
+      "id": "dbmbsNT7Lw4"
+    },
+    {
+      "text": "home page!!",
+      "user": "darshan@gmail.com",
+      "createdAt": "13/3/2026 17:54",
+      "id": "W_IM9m_5zs8"
+    },
+    {
+      "text": "qqqq",
+      "user": "darshan@gmail.com",
+      "createdAt": "13/3/2026 17:55",
+      "id": "PVkyhetFdP8"
+    },
+    {
+      "text": "www",
+      "user": "darshan@gmail.com",
+      "createdAt": "13/3/2026 17:55",
+      "id": "ZlHXzAtDDEQ"
+    },
+    {
+      "text": "eeeeee",
+      "user": "om@gmail.com",
+      "createdAt": "13/3/2026 17:56",
+      "id": "COWqq00l6Fo"
+    },
+    {
+      "text": "new tweeeeeeee",
+      "user": "om@gmail.com",
+      "createdAt": "13/3/2026 18:0",
+      "id": "M9HUS0fV5f0"
     }
   ],
   "users": [
-    {
-      "name": "Aman Gupta",
-      "email": "amangupta@yahoo.com",
-      "phone": "7412589630",
-      "password": "123456",
-      "id": "2id-B9GHFQ4"
-    },
     {
       "name": "om bagal",
       "email": "om@gmail.com",

@@ -2,10 +2,7 @@ import { useState } from 'react'
 import axios from 'axios'
 import { users_api } from '../utils/api.js'
 
-
-
 export default function SignUp() {
-
     const [user, setUser] = useState({});
 
     const handleSignup = async () => {
@@ -43,7 +40,7 @@ export default function SignUp() {
 // signup
 // signin -> if authenticated -> home page
 
-// GET, POST, PUT, DELETE   
+// GET, POST, PUT, DELETE
 
 // array - email
 
