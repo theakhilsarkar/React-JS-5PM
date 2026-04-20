@@ -1,0 +1,230 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #FFDCDC, #FFF2EB, #FFE8CD, #FFD6BA);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #333;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    animation: glow 3s infinite alternate;
+}
+
+/* Glow animation */
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff;
+    }
+
+    to {
+        text-shadow: 0 0 20px #ffbfa3, 0 0 30px #ffd6ba;
+    }
+}
+
+/* Search Section */
+.search-section {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Input */
+.search-box input {
+    padding: 12px 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    width: 250px;
+    font-size: 1rem;
+    background: #FFF2EB;
+    transition: 0.3s;
+}
+
+.search-box input:focus {
+    transform: scale(1.05);
+}
+
+/* Button */
+.search-box button {
+    padding: 12px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background: #FFD6BA;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.search-box button:hover {
+    background: #FFE8CD;
+    transform: scale(1.1);
+}
+
+/* Books Container */
+.books-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 25px;
+    /* spacing between cards */
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    /* ensures proper sizing */
+}
+
+/* Book Card */
+.book-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 18px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: 0.4s ease;
+    height: 100%;
+    /* key to prevent overlap */
+}
+
+/* Hover Animation */
+.book-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Book Text */
+.book-card h3 {
+    margin-bottom: 10px;
+}
+
+.book-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* No Result */
+.no-result {
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    backdrop-filter: blur(10px);
+}
+
+/* new css */
+/* Books container */
+.books-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Card */
+.card {
+    background: linear-gradient(135deg, #FFDCDC, #FFF2EB, #FFE8CD, #FFD6BA);
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Card image */
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+/* Card body */
+.card-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+/* Card title */
+.card-title {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+/* Author */
+.text-secondary {
+    color: #555;
+}
+
+/* Card details */
+.card-body h5.fs-6 {
+    font-size: 0.85rem;
+    color: #444;
+}
+
+/* Button */
+.btn-outline-success {
+    margin-top: 10px;
+    border-radius: 50px;
+    border: 2px solid #FFD6BA;
+    background-color: #FFF2EB;
+    color: #333;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn-outline-success:hover {
+    background-color: #FFE8CD;
+    border-color: #FFD6BA;
+    transform: scale(1.05);
+    color: #333;
+}
