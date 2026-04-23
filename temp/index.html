@@ -1,38 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FutureBooks Store</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ecommerce API calling</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Header -->
-    <header class="header">
-        <h1 class="logo">📚 FutureBooks</h1>
-    </header>
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="fs-3 fw-bold p-3">Ecart</span>
+        <a href="cart.html" class="btn btn-outline-primary cart-btn m-3">🛒 Cart</a>
+    </div>
 
-    <!-- Search Section -->
-    <section class="search-section">
-        <div class="search-box">
-            <input type="text" id="searchInput" placeholder="Search for books...">
-            <button id="searchBtn">Search</button>
+    <div class="container-box">
+        <div id="products-div" class="d-flex justify-content-center row gap-3 m-3 row-cols-5">
+
         </div>
-    </section>
 
-    <!-- Books Display -->
-    <section class="books-container container d-flex flex-wrap" id="booksContainer">
 
-    </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>© 2026 FutureBooks Store</p>
-    </footer>
+    </div>
+
+    </div>
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

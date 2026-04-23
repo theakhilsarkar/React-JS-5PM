@@ -39,3 +39,7 @@ export default function Todo() {
         </div>
     )
 }
+
+// add,update,delete,display todo
+// status update - completed,running - 
+    
