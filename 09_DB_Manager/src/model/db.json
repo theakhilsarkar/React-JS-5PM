@@ -1,0 +1,17 @@
+{
+    "users": [
+        {
+            "name": "Aman Gupta",
+            "role": "employee",
+            "designation": "Software Developer",
+            "email": "aman.gupta@gmail.com",
+            "emp_id": "2601123",
+            "password": "Aman@1234",
+            "salary": 250000,
+            "joining_date": "25/05/2026",
+            "dob": "25/05/2000",
+            "phone": "9874563210"
+        }
+    ]
+    
+}
