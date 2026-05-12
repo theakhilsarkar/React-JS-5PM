@@ -36,3 +36,20 @@ export default function App() {
 
 // leave apply 
 // absent - deduction 
+
+// teams - 6 members 
+// HRMS
+
+// penalty - if employee miss checkout 
+// 9:00 -> 0.5 day, 500
+
+// if user login -> auto login by saving status in local storage 
+
+// json server 
+// redux toolkit 
+// ui - bootstrap 
+// AI use
+// UI Unique - Simple 
+
+// presentation -> team project explain
+// 07/05/2026 - final present
